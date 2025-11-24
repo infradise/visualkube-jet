@@ -2,9 +2,23 @@
 
 # Visualkube Jet ⚡ 
 
-**The native, lightweight Kubernetes management plugin for JetBrains IDEs.**
+<div align="center">
+  <!-- <img src="https://download.visualkube.com/jet-logo.png" alt="Visualkube Jet Logo" width="120" height="120"> -->
+  <br>
+  
+  <h1>K8s Plugin for JetBrains</h1>
+  <p>
+    <b>Built exclusively for JetBrains IDEs</b><br>
+    The native, lightweight Kubernetes management plugin for JetBrains IDEs.
+  </p>
 
----
+  <p>
+    <img src="https://img.shields.io/badge/macOS-gray?logo=apple&style=for-the-badge" alt="Download for macOS">
+    <img src="https://img.shields.io/badge/Windows-blue?logo=windows&style=for-the-badge" alt="Download for Windows">
+    <img src="https://img.shields.io/badge/Linux-green?logo=linux&style=for-the-badge" alt="Download for Linux">  
+  </p>
+</div>
+
 
 ## Introduction
 
