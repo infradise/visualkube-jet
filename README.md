@@ -69,6 +69,10 @@ Found a bug? Please let us know!
 ## Legal Notices
 
 © 2025 Infradise Inc. All rights reserved.  
-Visualkube Jet is a product of Infradise Inc. Not affiliated with Linux Foundation, JetBrains s.r.o.  
 
-[Legal Notices](https://jet.visualkube.com/legal)
+**Visualkube**, **Visualkube Master**, and **Visualkube Jet** are products of Infradise Inc.  
+
+We are **not affiliated with** The Linux Foundation, Microsoft Corporation, or JetBrains s.r.o.  
+
+All other trademarks cited herein are the property of their respective owners.  
+For full legal details and a comprehensive list of third-party trademarks, please visit our [Visualkube Jet Legal Notices](https://jet.visualkube.com/legal) and [Visualkube Master Legal Notices](https://www.visualkube.com/legal-notice).
