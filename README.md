@@ -77,4 +77,4 @@ Visualkube Jet is a paid plugin available via the **JetBrains Marketplace**. We 
 
 Found a bug? Please let us know!
 
-* **Bug Report:** [Open an Issue](https://github.com/infradise/keyscope/issues/new)
+* **Bug Report:** [Open an Issue](https://github.com/infradise/visualkube-jet/issues/new)
