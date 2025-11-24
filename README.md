@@ -63,3 +63,12 @@ Visualkube Jet is compatible with all IntelliJ Platform-based products (Version 
 Found a bug? Please let us know!
 
 * **Bug Report:** [Open an Issue](https://github.com/infradise/visualkube-jet/issues/new)
+
+---
+
+## Legal Notices
+
+© 2025 Infradise Inc. All rights reserved.  
+Visualkube Jet is a product of Infradise Inc. Not affiliated with Linux Foundation, JetBrains s.r.o.  
+
+[Legal Notices](https://jet.visualkube.com/legal)
