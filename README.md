@@ -14,14 +14,11 @@
 
   <p>
     <a href="https://github.com/infradise/visualkube-jet/releases/latest">
-      <img src="https://img.shields.io/badge/macOS-gray?logo=apple&style=for-the-badge" alt="macOS">
-    </a>
+      <img src="https://img.shields.io/badge/macOS-gray?logo=apple&style=for-the-badge" alt="macOS"></a>  
     <a href="https://github.com/infradise/visualkube-jet/releases/latest">
-      <img src="https://img.shields.io/badge/Windows-blue?logo=windows&style=for-the-badge" alt="Windows">
-    </a>
+      <img src="https://img.shields.io/badge/Windows-blue?logo=windows&style=for-the-badge" alt="Windows"></a>
     <a href="https://github.com/infradise/visualkube-jet/releases/latest">
-      <img src="https://img.shields.io/badge/Linux-green?logo=linux&style=for-the-badge" alt="Linux">  
-    </a>
+      <img src="https://img.shields.io/badge/Linux-green?logo=linux&style=for-the-badge" alt="Linux"></a>  
   </p>
 </div>
 
