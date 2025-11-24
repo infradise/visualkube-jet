@@ -3,7 +3,7 @@
 # Visualkube Jet ⚡ 
 
 <div align="center">
-  <!-- <img src="https://download.visualkube.com/jet-logo.png" alt="Visualkube Jet Logo" width="120" height="120"> -->
+  <img src="https://packages.visualkube.com/jet/logo.png" alt="Visualkube Jet Logo" width="128" height="128">
   <br>
   
   <h1>K8s Plugin for JetBrains</h1>
@@ -67,7 +67,7 @@ Visualkube Jet is a paid plugin available via the **JetBrains Marketplace**. We 
 
 ## Installation
 
-1.  Open your IDE (IntelliJ IDEA, Android Studio, etc.).
+1.  Open your IDE (Android Studio, IntelliJ IDEA, PyCharm, etc.).
 2.  Go to **Settings/Preferences** → **Plugins** → **Marketplace**.
 3.  Search for **"Visualkube Jet"**.
 4.  Click **Install**.
