@@ -1,0 +1,63 @@
+[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/d/visualkube-jet)](https://plugins.jetbrains.com/plugin/visualkube-jet)
+
+# Visualkube Jet ⚡ 
+
+**The native, lightweight Kubernetes management plugin for JetBrains IDEs.**
+
+---
+
+## Introduction
+
+**Visualkube Jet** is a lightweight, high-performance Kubernetes management plugin built exclusively for the JetBrains ecosystem. Written in **Pure Java**, it leverages the native JetBrains UI components to provide a seamless, integrated experience that feels like a built-in part of your IDE.
+
+Unlike the standard [Visualkube](https://github.com/infradise/visualkube), which is a comprehensive cross-platform dashboard, **Visualkube Jet** is laser-focused on developer productivity within Android Studio, IntelliJ IDEA, and PyCharm.
+
+
+## Why Visualkube Jet?
+
+### Native Performance
+Built with **Pure Java** and the JetBrains SDK. No web views, no heavy frameworks, and no context switching. It is optimized for speed and minimal resource consumption.
+
+### Native Look & Feel
+We utilize the standard **JetBrains UI components**. Whether you are using the Darkula theme or the new UI, Visualkube Jet blends in perfectly, providing a consistent and comfortable user experience.
+
+### Focus on Essentials
+Designed for developers who need to manage Kubernetes clusters without leaving their code. View logs, edit YAMLs, and restart pods directly alongside your source code.
+
+
+## Supported IDEs
+
+Visualkube Jet is compatible with all IntelliJ Platform-based products (Version 2023.x and later):
+
+* **Android Studio**
+* **IntelliJ IDEA** (Community & Ultimate)
+* **PyCharm** (Community & Professional)
+* PhpStorm, GoLand, WebStorm, CLion, DataGrip, RubyMine, RustRover
+
+> **Note:** This plugin is **NOT** available for VS Code or Eclipse. It is a specialized tool for the JetBrains family.
+
+
+## Pricing & Licensing
+
+Visualkube Jet is a paid plugin available via the **JetBrains Marketplace**. We believe in a fair "Try before you Buy" model.
+
+* **30-Day Free Trial:** Full access to all features. No credit card required to start.
+* **Individual Plan:** **$5 / month** or **$50 / year** (Save ~17%).
+* **Organization Plan:** Same pricing per seat. Easily manage licenses via your JetBrains Account.
+
+> Payment and subscription management are securely handled by JetBrains.
+
+
+## Installation
+
+1.  Open your IDE (IntelliJ IDEA, Android Studio, etc.).
+2.  Go to **Settings/Preferences** → **Plugins** → **Marketplace**.
+3.  Search for **"Visualkube Jet"**.
+4.  Click **Install**.
+
+
+## Feedback & Support
+
+Found a bug? Please let us know!
+
+* **Bug Report:** [Open an Issue](https://github.com/infradise/keyscope/issues/new)
