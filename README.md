@@ -75,4 +75,4 @@ Found a bug? Please let us know!
 We are **not affiliated with** The Linux Foundation, Microsoft Corporation, or JetBrains s.r.o.  
 
 All other trademarks cited herein are the property of their respective owners.  
-For full legal details and a comprehensive list of third-party trademarks, please visit our [Visualkube Jet Legal Notices](https://jet.visualkube.com/legal) and [Visualkube Master Legal Notices](https://www.visualkube.com/legal-notice).
+For full legal details and a comprehensive list of third-party trademarks, please visit our [Legal Notices](https://jet.visualkube.com/legal).
