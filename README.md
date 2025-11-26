@@ -29,7 +29,7 @@
 
 **Visualkube Jet** is a lightweight, high-performance Kubernetes management plugin built exclusively for the JetBrains ecosystem. Written in **Kotlin**, it leverages the native JetBrains UI components to provide a seamless, integrated experience that feels like a built-in part of your IDE.
 
-Unlike the standard [Visualkube](https://github.com/infradise/visualkube), which is a comprehensive cross-platform dashboard, **Visualkube Jet** is laser-focused on developer productivity within Android Studio, IntelliJ IDEA, and PyCharm.
+Unlike the flagship [Visualkube Master](https://github.com/infradise/visualkube), which is a comprehensive cross-platform dashboard, **Visualkube Jet** is laser-focused on developer productivity within Android Studio, IntelliJ IDEA, and PyCharm.
 
 ## Why Visualkube Jet?
 
