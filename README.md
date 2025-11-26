@@ -43,11 +43,14 @@ Unlike the flagship [Visualkube Master](https://github.com/infradise/visualkube)
 
 ## Key Features
 
+### 0.1.0‑EAP (Current Release)
 - **Architecture (Core):** High‑performance design based on JetBrains Native UI (Swing/Kotlin) and Kubernetes Java Client.  
 - **Exploration (Zone A):** Cluster tree view with real‑time namespace filtering via toggle UI.  
 - **Operations (Zone B):** Cluster Manager integrated with `~/.kube/config` and reactive Pod list display.  
 - **Details (Zone C):** YAML editor that opens automatically on click, with syntax highlighting and scrolling support.  
 - **Runtime (Zone D):** Real‑time log streaming through right‑click context menu and automatic popup window.  
+
+### 0.2.0‑EAP (In Progress)
 - **Multi Cluster:** Coming soon
 
 ## Supported IDEs
