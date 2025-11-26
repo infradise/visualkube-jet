@@ -1,4 +1,5 @@
-[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/d/29143-visualkube-jet)](https://plugins.jetbrains.com/plugin/29143-visualkube-jet)
+[![JetBrains Plugin Version](https://img.shields.io/jetbrains/plugin/v/com.infradise.visualkube.jet)](https://plugins.jetbrains.com/plugin/29143-visualkube-jet)
+[![JetBrains Plugin Downloads](https://img.shields.io/jetbrains/plugin/d/com.infradise.visualkube.jet)](https://plugins.jetbrains.com/plugin/29143-visualkube-jet)
 
 # Visualkube Jet ⚡ 
 
