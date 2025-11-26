@@ -6,7 +6,7 @@
   <img src="https://packages.visualkube.com/jet/logo.png" alt="Visualkube Jet Logo" width="128" height="128">
   <br>
   
-  <h1>K8s Plugin for JetBrains</h1>
+  <h1>The Native Kubernetes IDE for JetBrains</h1>
   <p>
     <b>Built exclusively for JetBrains IDEs</b><br>
     The native, lightweight Kubernetes management plugin for JetBrains IDEs.
