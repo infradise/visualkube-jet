@@ -34,14 +34,21 @@ Unlike the flagship [Visualkube Master](https://github.com/infradise/visualkube)
 
 ## Why Visualkube Jet?
 
-### Key Features (*Planned*)
-
 * **Native Performance**
     * Built with **Kotlin** and the JetBrains SDK. No web views, no heavy frameworks, and no context switching. It is optimized for speed and minimal resource consumption.
 * **Native Look & Feel**
     * We utilize the standard **JetBrains UI components**. Whether you are using the Darkula theme or the new UI, Visualkube Jet blends in perfectly, providing a consistent and comfortable user experience, and an interface designed for long coding sessions.
 * **Focus on Essentials**
     * Designed for developers who need to manage Kubernetes clusters without leaving their code. View logs, edit YAMLs, and restart pods directly alongside your source code.
+
+## Key Features
+
+- **Architecture (Core):** High‑performance design based on JetBrains Native UI (Swing/Kotlin) and Kubernetes Java Client.  
+- **Exploration (Zone A):** Cluster tree view with real‑time namespace filtering via toggle UI.  
+- **Operations (Zone B):** Cluster Manager integrated with `~/.kube/config` and reactive Pod list display.  
+- **Details (Zone C):** YAML editor that opens automatically on click, with syntax highlighting and scrolling support.  
+- **Runtime (Zone D):** Real‑time log streaming through right‑click context menu and automatic popup window.  
+- **Multi Cluster:** Coming soon
 
 ## Supported IDEs
 
