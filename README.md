@@ -21,13 +21,13 @@
       <img src="https://img.shields.io/badge/Linux-green?logo=linux&style=for-the-badge" alt="Linux"></a>  
   </p>
 
-  <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-main-screenshot.png" alt="Visualkube Jet Logo"></p>
+  <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-main-screenshot.png" alt="Visualkube Jet Main Screenshot"></p>
 </div>
 
 
 ## Introduction
 
-**Visualkube Jet** is a lightweight, high-performance Kubernetes management plugin built exclusively for the JetBrains ecosystem. Written in **Pure Java**, it leverages the native JetBrains UI components to provide a seamless, integrated experience that feels like a built-in part of your IDE.
+**Visualkube Jet** is a lightweight, high-performance Kubernetes management plugin built exclusively for the JetBrains ecosystem. Written in **Kotlin**, it leverages the native JetBrains UI components to provide a seamless, integrated experience that feels like a built-in part of your IDE.
 
 Unlike the standard [Visualkube](https://github.com/infradise/visualkube), which is a comprehensive cross-platform dashboard, **Visualkube Jet** is laser-focused on developer productivity within Android Studio, IntelliJ IDEA, and PyCharm.
 
@@ -36,7 +36,7 @@ Unlike the standard [Visualkube](https://github.com/infradise/visualkube), which
 ### Key Features (*Planned*)
 
 * **Native Performance**
-    * Built with **Pure Java** and the JetBrains SDK. No web views, no heavy frameworks, and no context switching. It is optimized for speed and minimal resource consumption.
+    * Built with **Kotlin** and the JetBrains SDK. No web views, no heavy frameworks, and no context switching. It is optimized for speed and minimal resource consumption.
 * **Native Look & Feel**
     * We utilize the standard **JetBrains UI components**. Whether you are using the Darkula theme or the new UI, Visualkube Jet blends in perfectly, providing a consistent and comfortable user experience, and an interface designed for long coding sessions.
 * **Focus on Essentials**
