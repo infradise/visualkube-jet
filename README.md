@@ -61,6 +61,32 @@ Visualkube Jet is compatible with all IntelliJ Platform-based products (Version 
 3.  Search for **"Visualkube Jet"**.
 4.  Click **Install**.
 
+## Getting Started
+
+Follow these steps to test **Visualkube Jet** (0.1.0‑EAP):
+
+### Prerequisites
+- kubectl must be installed for version 0.1.0‑EAP.
+- Ensure that the Kubernetes cluster is accessible and properly connected.
+
+### Steps to Get Started
+1. Click the **Visualkube Jet icon** in the top‑left corner of your IDE.  
+
+2. In the **Visualkube Jet Tool Window**, open the **Cluster Manager** icon from the Visualkube Cluster toolbar.  
+   - Verify the Kubernetes cluster list.  
+   - The current cluster is marked with a star.  
+   - **Note:** In version 0.1.0‑EAP, only the *Current Context* from `~/.kube/config` is accessible.  
+
+3. In the Kubernetes resource tree, expand **Workloads** and click **Pods**.  
+
+4. Use the **Toggle Namespace** icon in the Visualkube Cluster toolbar to filter the Pod list by namespace.  
+
+5. On the right side of the IDE, click the **Visualkube Details icon** to open the YAML viewer.  
+   - Select a Pod from the list to display its YAML definition.  
+
+6. At the bottom of the IDE, click the **Visualkube Operations icon** to open the logs window.  
+   - Right‑click a Pod in the list and choose **Show Log** from the popup menu to view its logs.
+
 ## Feedback & Support
 
 Found a bug? Please let us know!
