@@ -10,7 +10,7 @@
   <h1>The Native Kubernetes IDE for JetBrains</h1>
   <p>
     <b>Built exclusively for JetBrains IDEs</b><br>
-    The native, lightweight Kubernetes management plugin for JetBrains IDEs.
+    The native, lightweight, high-performance Kubernetes management plugin for JetBrains IDEs.
   </p>
 
   <p>
@@ -44,18 +44,18 @@ Unlike the flagship [Visualkube Master](https://github.com/infradise/visualkube)
 ## Key Features
 
 ### 0.1.0‑EAP (Current Release)
-- **Architecture (Core):** High‑performance design based on JetBrains Native UI (Swing/Kotlin) and Kubernetes Java Client.  
-- **Exploration (Zone A):** Cluster tree view with real‑time namespace filtering via toggle UI.  
-- **Operations (Zone B):** Cluster Manager integrated with `~/.kube/config` and reactive Pod list display.  
-- **Details (Zone C):** YAML editor that opens automatically on click, with syntax highlighting and scrolling support.  
-- **Runtime (Zone D):** Real‑time log streaming through right‑click context menu and automatic popup window.  
+- **Architecture:** High‑performance design based on JetBrains Native UI (Swing/Kotlin) and Kubernetes Java Client.  
+- **Exploration:** Cluster tree view with real‑time namespace filtering via toggle UI.  
+- **Operations:** Cluster Manager integrated with `~/.kube/config` and reactive Pod list display.  
+- **Details:** YAML editor that opens automatically on click, with syntax highlighting and scrolling support.  
+- **Runtime:** Real‑time log streaming through right‑click context menu and automatic popup window.  
 
 ### 0.2.0‑EAP (In Progress)
-- **Multi Cluster:** Coming soon
+- **Multi Cluster:**
 
 ## Supported IDEs
 
-Visualkube Jet is compatible with all IntelliJ Platform-based products (Version 2023.x and later):
+Visualkube Jet is compatible with all IntelliJ Platform-based products (versions 2023.x and later):
 
 * **Android Studio**
 * **IntelliJ IDEA** (Community & Ultimate)
