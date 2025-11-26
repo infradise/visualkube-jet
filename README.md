@@ -20,6 +20,8 @@
     <a href="https://github.com/infradise/visualkube-jet/releases/latest">
       <img src="https://img.shields.io/badge/Linux-green?logo=linux&style=for-the-badge" alt="Linux"></a>  
   </p>
+
+  <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-main-screenshot.png" alt="Visualkube Jet Logo"></p>
 </div>
 
 
