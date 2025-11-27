@@ -22,9 +22,8 @@
       <img src="https://img.shields.io/badge/Linux-green?logo=linux&style=for-the-badge" alt="Linux"></a>  
   </p>
 
-  <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-main-screenshot.png" alt="Visualkube Jet Main Screenshot"></p>
+  <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-multi-cluster-screen.png" alt="Visualkube Jet - Multi Cluster Screenshot"></p>
 </div>
-
 
 ## Introduction
 
