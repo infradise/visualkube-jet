@@ -10,7 +10,7 @@
   <h1>The Native Kubernetes IDE for JetBrains</h1>
   <p>
     <b>Built exclusively for JetBrains IDEs</b><br>
-    The native, lightweight, high-performance Kubernetes management plugin for JetBrains IDEs.
+    The native, high-performance, lightweight Kubernetes management plugin for JetBrains IDEs.
   </p>
 
   <p>
@@ -51,7 +51,7 @@ Unlike the flagship [Visualkube Master](https://github.com/infradise/visualkube)
 - **Runtime:** Real‑time log streaming through right‑click context menu and automatic popup window.  
 
 ### 0.2.0‑EAP (In Progress)
-- **Multi Cluster:**
+- **Multi Cluster**
 
 ## Supported IDEs
 
