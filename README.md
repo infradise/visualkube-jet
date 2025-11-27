@@ -23,10 +23,8 @@
   </p>
 
   <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-multi-cluster-screen.png" alt="Visualkube Jet - Multi Cluster Screenshot"></p>
-  <video controls loop width="640">
-      <source src="https://packages.visualkube.com/jet/tutorial/visualkube-jet-tutorial.mp4" type="video/mp4">
-      Your browser does not support MP4 playback.
-  </video>
+
+  ![Visualkube Jet Tutorial](https://packages.visualkube.com/jet/tutorial/visualkube-jet-tutorial.webp?raw=true)
 </div>
 
 ## Introduction
