@@ -21,6 +21,9 @@
     <a href="https://github.com/infradise/visualkube-jet/releases/latest">
       <img src="https://img.shields.io/badge/Linux-green?logo=linux&style=for-the-badge" alt="Linux"></a>  
   </p>
+  <p>
+    #Multi-Cluster #Real-Time Watching #Automatic Reconnecting #True Cloud-Native IDE
+  </p>
 
   <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-multi-cluster-screen.png" alt="Visualkube Jet - Multi Cluster Screenshot"></p>
 
@@ -44,19 +47,26 @@ Unlike the flagship [Visualkube Master](https://github.com/infradise/visualkube)
 
 ## Key Features
 
-### 0.2.0
-- **Multi Cluster** support (clusters are connected and added when double-clicked in the Cluster Manager)
-- **Automatic Reconnection** to the most recently connected multi-clusters (if no previously connected cluster exists, the current context in `~/.kube/config` is used)
-
-### 0.1.0-EAP
 - **Architecture:** High‑performance design based on JetBrains Native UI (Swing/Kotlin) and Kubernetes Java Client.
 - **Exploration:** Cluster tree view with real‑time namespace filtering via toggle UI.
 - **Operations:** Cluster Manager integrated with `~/.kube/config` and reactive Pod list display.
 - **Details:** YAML editor that opens automatically on click, with syntax highlighting and scrolling support.
 - **Runtime:** Real‑time log streaming through right‑click context menu and automatic popup window.
+- **Multi-Cluster** support (clusters are connected and added when double-clicked in the Cluster Manager)
+- **Automatic Reconnection** to the most recently connected multi-clusters (if no previously connected cluster exists, the current context in `~/.kube/config` is used)
+- **Shell Auto-Close:** The shell tab automatically closes when the user types "exit"
+- **True Cloud-Native IDE:** Smooth updates for thousands of resources via transition from static on-demand pulling to reactive event-driven architecture, enabling real-time watching.
+- **Real-time Resource Watch:** Live monitoring of key Kubernetes (K8s) resources like Workloads (Pods, Deployments), Network (Services, Ingresses), and Config (Secrets, ConfigMaps).
+- **Kubectl-Independent Logs:** Log viewing without kubectl dependency, working out-of-the-box for seamless runtime access.
+- **Upcoming Kubectl-Independent Shell:** Planned elimination of kubectl exec dependency in future releases for enhanced shell operations.
 
-### Known Issues
-- Tabs are not automatically refreshed, so they must be closed manually
+## K8s Resource Expansion
+
+New resources introduced in every version update:
+
+- Ingress, ConfigMaps, Secrets (v0.5.0)
+- Deployments, Services (v0.4.0)
+- Pods (v0.1.0-EAP to v0.3.0)
 
 ## Supported IDEs
 
