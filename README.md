@@ -9,8 +9,8 @@
   
   <h1>The Native Kubernetes IDE for JetBrains</h1>
   <p>
-    <b>Built exclusively for JetBrains IDEs</b><br>
-    The native, high-performance, lightweight Kubernetes management plugin for JetBrains IDEs.
+    The native, high-performance, lightweight Kubernetes management plugin for JetBrains IDEs.<br>
+    <b>Built exclusively for JetBrains IDEs</b>
   </p>
 
   <p>
