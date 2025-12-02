@@ -88,29 +88,23 @@ Visualkube Jet is compatible with all IntelliJ Platform-based products (versions
 
 ## Getting Started
 
-Follow these steps to test **Visualkube Jet** (0.1.0‑EAP):
+1. Click the **Visualkube Jet icon** in the top‑left corner of your IDE.
 
-### Prerequisites
-- kubectl must be installed for version 0.1.0‑EAP.
-- Ensure that the Kubernetes cluster is accessible and properly connected.
+2. The **Cluster Manager** opens automatically by default. (If you closed it, click the **Cluster Manager** icon in the **Visualkube Cluster toolbar**.)
+  - In the **Cluster Manager**, multi-cluster lists are added or removed when you double‑click a cluster in the Kubernetes cluster list.
+  - The current context is marked with a star.
+  - **Note:** Currently, only `~/.kube/config` is accessible.
 
-### Steps to Get Started
-1. Click the **Visualkube Jet icon** in the top‑left corner of your IDE.  
+3. In the **Kubernetes resource tree**, click **Pods** in the **Workloads** group. Then you can watch real-time events (e.g., status changes and latest updates) on the pods.
 
-2. In the **Visualkube Jet Tool Window**, open the **Cluster Manager** icon from the Visualkube Cluster toolbar.  
-   - Verify the Kubernetes cluster list.  
-   - The current cluster is marked with a star.  
-   - **Note:** In version 0.1.0‑EAP, only the *Current Context* from `~/.kube/config` is accessible.  
+4. Use the **Toggle Namespace** icon in the **Visualkube Cluster toolbar** to filter the Pod list by namespace.
 
-3. In the Kubernetes resource tree, expand **Workloads** and click **Pods**.  
+5. On the right side of the IDE, click the **Visualkube Details icon** to open the YAML viewer.
+  - Select a Pod from the list to display its YAML definition.
 
-4. Use the **Toggle Namespace** icon in the Visualkube Cluster toolbar to filter the Pod list by namespace.  
 
-5. On the right side of the IDE, click the **Visualkube Details icon** to open the YAML viewer.  
-   - Select a Pod from the list to display its YAML definition.  
-
-6. At the bottom of the IDE, click the **Visualkube Operations icon** to open the logs window.  
-   - Right‑click a Pod in the list and choose **Show Log** from the popup menu to view its logs.
+6. At the bottom of the IDE, click the **Visualkube Operations icon** to open the logs window.
+  - Right‑click a Pod in the list and choose **Show Log** from the popup menu to view its logs.
 
 ## Feedback & Support
 
