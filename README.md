@@ -25,7 +25,7 @@
     #Multi-Cluster #Real-Time Watching #Automatic Reconnecting #True Cloud-Native IDE
   </p>
 
-  <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-multi-cluster-screen.png" alt="Visualkube Jet - Multi Cluster Screenshot"></p>
+  <p><img src="https://packages.visualkube.com/jet/screenshot/visualkube-jet-multi-cluster-log-v060.png" alt="Visualkube Jet - Multi Cluster Screenshot"></p>
 
   ![Visualkube Jet Tutorial](https://packages.visualkube.com/jet/tutorial/visualkube-jet-tutorial.webp?raw=true)
 </div>
