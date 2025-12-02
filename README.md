@@ -62,11 +62,28 @@ Unlike the flagship [Visualkube Master](https://github.com/infradise/visualkube)
 
 ## K8s Resource Expansion
 
-New resources introduced in every version update:
+New resources are introduced in every version update:
 
-- Ingress, ConfigMaps, Secrets (v0.5.0)
-- Deployments, Services (v0.4.0)
-- Pods (v0.1.0-EAP to v0.3.0)
+- Cluster: 
+  - Nodes, Namespaces, Events, API Services, Component Statuses, Cluster CIDR
+- Workloads:  
+  - Pods, Deployments, Daemon Sets, Stateful Sets, Replica Sets, Replication Controllers, Jobs, Cron Jobs, Controller Revisions, Pod Templates
+- Network:  
+  - Services, Ingresses
+  - **Scheduled**: Endpoint Slices, Endpoints, Ingress Classes, Network Policies, Port Forwarding
+- Config:  
+  - Secrets, ConfigMaps
+  - **Scheduled**: HPA, VPA, Limit Ranges, Resource Quotas, Pod Disruption Budgets, Leases, Flow Schemas, Priority Level Configurations
+- Admin:
+  - **Scheduled**: Custom Resource Definitions, Priority Classes, Runtime Classes, Mutating Webhook Configurations, Validating Webhook Configurations
+- Storage:
+  - **Scheduled**: Persistent Volumes, Persistent Volume Claims, Volume Attachments, Storage Classes, CSI Drivers, CSI Nodes, CSI Storage Capacities
+- Access Control:
+  - **Scheduled**: Service Accounts, Cluster Roles, Cluster Role Bindings, Roles, Role Bindings, Pod Security Policies, Pod Security Admission, Certificate Signing Requests
+- Metric:
+  - **Scheduled**: Node Metrics, Pod Metrics
+- Helm:
+  - **Scheduled**: Charts, Releases
 
 ## Supported IDEs
 
