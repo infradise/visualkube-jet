@@ -71,12 +71,12 @@ New resources are introduced in every version update:
   - Services, Ingresses, Endpoint Slices, Endpoints, Ingress Classes, Network Policies
   - **Scheduled**: Port Forwarding
 - Config:  
-  - Secrets, ConfigMaps, HPA, Limit Ranges, Resource Quotas, Pod Disruption Budgets, Leases, Flow Schemas, Priority Level Configurations
+  - Secrets, ConfigMaps, Horizontal Pod Autoscalers, Limit Ranges, Resource Quotas, Pod Disruption Budgets, Leases, Flow Schemas, Priority Level Configurations
   - **Scheduled**: VPA
 - Admin:
-  - **Scheduled**: Custom Resource Definitions, Priority Classes, Runtime Classes, Mutating Webhook Configurations, Validating Webhook Configurations
+  - Custom Resource Definitions, Priority Classes, Runtime Classes, Mutating Webhook Configurations, Validating Webhook Configurations
 - Storage:
-  - **Scheduled**: Persistent Volumes, Persistent Volume Claims, Volume Attachments, Storage Classes, CSI Drivers, CSI Nodes, CSI Storage Capacities
+  - Persistent Volumes, Persistent Volume Claims, Volume Attachments, Storage Classes, CSI Drivers, CSI Nodes, CSI Storage Capacities
 - Access Control:
   - **Scheduled**: Service Accounts, Cluster Roles, Cluster Role Bindings, Roles, Role Bindings, Pod Security Policies, Pod Security Admission, Certificate Signing Requests
 - Metric:
