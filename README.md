@@ -1,5 +1,4 @@
 [![JetBrains Plugin Version](https://img.shields.io/jetbrains/plugin/v/com.infradise.visualkube.jet)](https://plugins.jetbrains.com/plugin/29143-visualkube-jet)
-[![JetBrains Plugin Downloads](https://img.shields.io/jetbrains/plugin/d/com.infradise.visualkube.jet)](https://plugins.jetbrains.com/plugin/29143-visualkube-jet)
 
 # Visualkube Jet ⚡ 
 
@@ -69,11 +68,11 @@ New resources are introduced in every version update:
 - Workloads:  
   - Pods, Deployments, Daemon Sets, Stateful Sets, Replica Sets, Replication Controllers, Jobs, Cron Jobs, Controller Revisions, Pod Templates
 - Network:  
-  - Services, Ingresses
-  - **Scheduled**: Endpoint Slices, Endpoints, Ingress Classes, Network Policies, Port Forwarding
+  - Services, Ingresses, Endpoint Slices, Endpoints, Ingress Classes, Network Policies
+  - **Scheduled**: Port Forwarding
 - Config:  
-  - Secrets, ConfigMaps
-  - **Scheduled**: HPA, VPA, Limit Ranges, Resource Quotas, Pod Disruption Budgets, Leases, Flow Schemas, Priority Level Configurations
+  - Secrets, ConfigMaps, HPA, Limit Ranges, Resource Quotas, Pod Disruption Budgets, Leases, Flow Schemas, Priority Level Configurations
+  - **Scheduled**: VPA
 - Admin:
   - **Scheduled**: Custom Resource Definitions, Priority Classes, Runtime Classes, Mutating Webhook Configurations, Validating Webhook Configurations
 - Storage:
