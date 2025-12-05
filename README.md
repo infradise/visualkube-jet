@@ -69,20 +69,21 @@ New resources are introduced in every version update:
   - Pods, Deployments, Daemon Sets, Stateful Sets, Replica Sets, Replication Controllers, Jobs, Cron Jobs, Controller Revisions, Pod Templates
 - Network:  
   - Services, Ingresses, Endpoint Slices, Endpoints, Ingress Classes, Network Policies
-  - **Scheduled**: Port Forwarding
+  - (Under review: Port Forwarding)
 - Config:  
   - Secrets, ConfigMaps, Horizontal Pod Autoscalers, Limit Ranges, Resource Quotas, Pod Disruption Budgets, Leases, Flow Schemas, Priority Level Configurations
-  - **Scheduled**: VPA
+  - (Under review: Vertical Pod Autoscalers)
 - Admin:
   - Custom Resource Definitions, Priority Classes, Runtime Classes, Mutating Webhook Configurations, Validating Webhook Configurations
 - Storage:
   - Persistent Volumes, Persistent Volume Claims, Volume Attachments, Storage Classes, CSI Drivers, CSI Nodes, CSI Storage Capacities
 - Access Control:
-  - **Scheduled**: Service Accounts, Cluster Roles, Cluster Role Bindings, Roles, Role Bindings, Pod Security Policies, Pod Security Admission, Certificate Signing Requests
+  - Service Accounts, Cluster Roles, Cluster Role Bindings, Roles, Role Bindings, Certificate Signing Requests
+  - (Under review: Pod Security Policies, Pod Security Admission)
 - Metric:
-  - **Scheduled**: Node Metrics, Pod Metrics
+  - (Under review: Node Metrics, Pod Metrics)
 - Helm:
-  - **Scheduled**: Charts, Releases
+  - (Under review: Charts, Releases)
 
 ## Supported IDEs
 
