@@ -68,8 +68,7 @@ New resources are introduced in every version update:
 - Workloads:  
   - Pods, Deployments, Daemon Sets, Stateful Sets, Replica Sets, Replication Controllers, Jobs, Cron Jobs, Controller Revisions, Pod Templates
 - Network:  
-  - Services, Ingresses, Endpoint Slices, Endpoints, Ingress Classes, Network Policies
-  - (Under review: Port Forwarding)
+  - Services, Ingresses, Endpoint Slices, Endpoints, Ingress Classes, Network Policies, Port Forwarding
 - Config:  
   - Secrets, ConfigMaps, Horizontal Pod Autoscalers, Limit Ranges, Resource Quotas, Pod Disruption Budgets, Leases, Flow Schemas, Priority Level Configurations
   - (Under review: Vertical Pod Autoscalers)
@@ -78,12 +77,27 @@ New resources are introduced in every version update:
 - Storage:
   - Persistent Volumes, Persistent Volume Claims, Volume Attachments, Storage Classes, CSI Drivers, CSI Nodes, CSI Storage Capacities
 - Access Control:
-  - Service Accounts, Cluster Roles, Cluster Role Bindings, Roles, Role Bindings, Certificate Signing Requests
-  - (Under review: Pod Security Policies, Pod Security Admission)
-- Metric:
-  - (Under review: Node Metrics, Pod Metrics)
-- Helm:
-  - (Under review: Charts, Releases)
+  - Service Accounts, Cluster Roles, Cluster Role Bindings, Roles, Role Bindings, Pod Security Admissions, Certificate Signing Requests
+  - (Under review: Pod Security Policies)
+- Metric: 
+  - Node Metrics, Pod Metrics
+- Helm: 
+  - Charts, Releases
+
+## Node Metrics & Pod Metrics  
+
+- The `metrics-server` is a Kubernetes component that **collects resource usage data** such as CPU and memory consumption from nodes and pods.  
+- Visualkube Jet relies on this data to provide **real-time monitoring and visualization** of cluster workloads.  
+- **To view metrics, `metrics-server` required to be installed.**  
+  - It is **not included by default** in a standard Kubernetes installation, so you need to install it separately.  
+  - **Installing via Helm group in Visualkube Jet**  
+    - ⚠️ Upcoming release can install `metrics-server` directly from the **Helm group in the resource tree** (Charts, Releases) within Visualkube Jet, without depending on `kubectl`.  
+  - For now, if you prefer or need to install via CLI, use the following command:  
+    ```bash
+    kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+    ```  
+  - Once installed, you can access metrics in Visualkube Jet similar to using `kubectl top nodes` or `kubectl top pods`.  
+  - Note: `metrics-server` only provides **short-term aggregated metrics**. For long-term historical analysis or advanced monitoring, consider integrating with solutions like **Prometheus** (data collection) and **Grafana** (visualization).   
 
 ## Supported IDEs
 
