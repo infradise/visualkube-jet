@@ -78,7 +78,6 @@ New resources are introduced in every version update:
   - Persistent Volumes, Persistent Volume Claims, Volume Attachments, Storage Classes, CSI Drivers, CSI Nodes, CSI Storage Capacities
 - Access Control:
   - Service Accounts, Cluster Roles, Cluster Role Bindings, Roles, Role Bindings, Pod Security Admissions, Certificate Signing Requests
-  - (Under review: Pod Security Policies)
 - Metric: 
   - Node Metrics, Pod Metrics
 - Helm: 
@@ -91,13 +90,17 @@ New resources are introduced in every version update:
 - **To view metrics, `metrics-server` required to be installed.**  
   - It is **not included by default** in a standard Kubernetes installation, so you need to install it separately.  
   - **Installing via Helm group in Visualkube Jet**  
-    - ⚠️ Upcoming release can install `metrics-server` directly from the **Helm group in the resource tree** (Charts, Releases) within Visualkube Jet, without depending on `kubectl`.  
+    - ⚠️ Upcoming release can install `metrics-server` directly from the **Helm group in the resource tree** (Charts, Releases) within Visualkube Jet, without depending on `kubectl` CLI.  
   - For now, if you prefer or need to install via CLI, use the following command:  
     ```bash
     kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
     ```  
   - Once installed, you can access metrics in Visualkube Jet similar to using `kubectl top nodes` or `kubectl top pods`.  
   - Note: `metrics-server` only provides **short-term aggregated metrics**. For long-term historical analysis or advanced monitoring, consider integrating with solutions like **Prometheus** (data collection) and **Grafana** (visualization).   
+
+## Redis / Valkey
+
+- ⚠️ Upcoming release can install `redis` or `valkey` directly from the **Helm group in the resource tree** (Charts, Releases) within Visualkube Jet, without depending on `kubectl` CLI.  
 
 ## Supported IDEs
 
